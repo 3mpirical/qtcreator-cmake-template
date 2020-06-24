@@ -1,9 +1,12 @@
 #include <iostream>
+#include "test.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    test example;
+    example.runTest();
+
     return 0;
 }

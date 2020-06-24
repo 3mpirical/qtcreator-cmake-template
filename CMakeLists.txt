@@ -12,6 +12,8 @@ add_executable(mvc
     src/main.cpp
 
     # Headers
+    include/test.h
 
     # Implementations
+    src/test.cpp
 )
